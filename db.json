@@ -1,14 +1,39 @@
-{
-  "base": [
-    { "id": 1, "title": "Canal 9" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+{ 
+  "canales":
+  [{ 
+    "canal" : "canal 9",
+    "descripcion" : "Series en vivo",
+    "imagen" : "https://i.ibb.co/Dr7vr04/ic-launcher-1.png",
+    "url": "https://ssai-apac.ooyala.com/hls/delta/cflive-use/out/u/229ymkag04945/107829/xkbjFrZjE6C0XcIGJRrNEk-TEe8LBvv8/cn/9f9cf618b2464b86b7a7a074ab605613.m3u8?s=ad_live&t=ads_live_tvmax&ssai_guid=5797e911-c880-4482-93e9-26c53f7d5be3&player_params=%7B%22core_version%22%3A4%2C%22vast_proxy_url%22%3A%22http%3A%2F%2Fplayer.ooyala.com%2Fadinsertion%2Fvast_proxy%22%2C%22tweaks%22%3A%5B%22%22%5D%2C%22maxAdsTimeout%22%3A5%2C%22maxVastWrapperDepth%22%3A3%2C%22minLiveSeekWindow%22%3A10%2C%22autoplay%22%3Afalse%2C%22loop%22%3Afalse%2C%22skin%22%3A%7B%22config%22%3A%22https%3A%2F%2Fwww.tvmax-9.com%2Fstatic%2FTVNVideo%2Fooyala%2Flive-skin.json%22%7D%2C%22encodingPriority%22%3A%5B%22hls%22%5D%2C%22initialBitrate%22%3A%7B%22level%22%3A%220.4%22%2C%22duration%22%3A10%7D%2C%22pcode%22%3A%22R0MGkyOujhjn2MT1bhFzzFWVhNzk%22%2C%22playerBrandingId%22%3A%22641a7ee7148543258eea7b0089cdb5e7%22%2C%22videoplaza-ads-manager%22%3A%7B%22pulse_host%22%3A%22https%3A%2F%2Fpa-tvnpanama.videoplaza.tv%22%2C%22pulse_category%22%3A%22sls_envivo%22%7D%7D" }, 
+   { "canal" : "canal 2", 
+    "descripcion" : "Noticias y farandulas", 
+    "imagen" : "https://i.ibb.co/Dr7vr04/ic-launcher-1.png",
+    "url": "https://ssai-apac.ooyala.com/hls/delta/cflive-use/out/u/229ymkag04945/107829/JlbDRrZjE6JBi2W0IpB3pRbFcNpyNh5W/cn/34ee71d50185402b81af1ebb43af1706.m3u8?s=ad_live&t=ads_live_tvn&ssai_guid=5d8c1f35-1198-42ec-93f4-a03a7eeedccf&player_params=%7B%22core_version%22%3A4%2C%22vast_proxy_url%22%3A%22http%3A%2F%2Fplayer.ooyala.com%2Fadinsertion%2Fvast_proxy%22%2C%22tweaks%22%3A%5B%22%22%5D%2C%22maxAdsTimeout%22%3A5%2C%22maxVastWrapperDepth%22%3A3%2C%22minLiveSeekWindow%22%3A10%2C%22pcode%22%3A%22R0MGkyOujhjn2MT1bhFzzFWVhNzk%22%2C%22playerBrandingId%22%3A%2274d3868de74b4f2283440e7bf4432190%22%2C%22playerType%22%3A%22video%22%2C%22debug%22%3A%22%22%2C%22api_ssl_server%22%3Anull%2C%22api_server%22%3Anull%2C%22auth_ssl_server%22%3Anull%2C%22auth_server%22%3Anull%2C%22analytics_ssl_server%22%3Anull%2C%22analytics_server%22%3Anull%2C%22autoplay%22%3Afalse%2C%22loop%22%3Afalse%2C%22skin%22%3A%7B%22config%22%3A%22https%3A%2F%2Fwww.tvn-2.com%2Fstatic%2FTVNVideo%2Fooyala%2Flive-skin.json%22%7D%2C%22encodingPriority%22%3A%5B%22hls%22%2C%22dash%22%5D%2C%22initialBitrate%22%3A%7B%22level%22%3A%220.4%22%2C%22duration%22%3A10%7D%2C%22iosPlayMode%22%3A%22inline%22%2C%22videoplaza-ads-manager%22%3A%7B%22pulse_host%22%3A%22https%3A%2F%2Fpa-tvnpanama.videoplaza.tv%22%7D%7D" },
+   { "canal" : "canal 21",
+    "descripcion" : "Entretenientos",
+    "imagen" : "https://i.ibb.co/Dr7vr04/ic-launcher-1.png",
+    "url": "http://198.1.123.99:1935/live/myStream/chunklist_w1493979348.m3u8" }, 
+   { "canal" : "canal 11", 
+    "descripcion" : "Clases educativas", 
+    "imagen" : "https://i.ibb.co/Dr7vr04/ic-launcher-1.png",
+    "url": "https://accionastream.com/live/sertv/chunklist_w418379157.m3u8" },
+   { "canal" : "canal 13",
+    "descripcion" : "Novelas y Noticieros",
+    "imagen" : "https://i.ibb.co/Dr7vr04/ic-launcher-1.png",
+    "url": "https://mdstrm.com/live-stream-playlist/5d88dd2229b0890723df2165.m3u8" },
+   { "canal" : "canal 37",
+    "imagen" : "https://i.ibb.co/Dr7vr04/ic-launcher-1.png", 
+    "descripcion" : "Religion", 
+    "url": "https://1206618505.rsc.cdn77.org/LS-ATL-59020-1/tracks-v1a1/mono.m3u8" },
+   { "canal" : "canal 4",
+    "descripcion" : "Entretenimiento", 
+    "imagen" : "https://i.ibb.co/Dr7vr04/ic-launcher-1.png", 
+    "url": "https://mdstrm.com/live-stream-playlist/5d88d659120a717cf93ce620.m3u8" } 
+  ], 
+  "extra" :[
+    { "canal" : "Telemundo MEX",
+     "imagen" : "https://i.ibb.co/Dr7vr04/ic-launcher-1.png",
+     "url": "https://wmaqlive-f.akamaihd.net/i/wmaqb1_1@24420/index_977_av-p.m3u8?sd=10&rebase=on" 
+    } ],
+  "acceso" : false, "code" : 40
 }
